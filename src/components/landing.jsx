@@ -28,7 +28,7 @@ const Landing = () => {
     return (
         <div className="relative w-full h-screen overflow-hidden flex flex-col items-center justify-center bg-black">
             <video ref={videoRef} loop muted playsInline autoPlay className="absolute w-full h-full object-cover z-0">
-                <source src="https://chad-distributable.s3.amazonaws.com/invideo-ai-1080+AI_+The+Invisible+Order+Taker+2023-09-08.mp4" type="video/mp4" />
+                <source src="https://chad-distributable.s3.amazonaws.com/aitakesorder.mp4" type="video/mp4" />
             </video>
             <div className="absolute w-full h-full bg-black bg-opacity-50 z-10"></div>
             <div className="absolute z-20 text-center text-white px-4 flex flex-col items-center">
