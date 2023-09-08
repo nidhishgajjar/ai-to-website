@@ -21,5 +21,14 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.no-controls::-webkit-media-controls': {
+          display: 'none !important',
+        },
+      }
+      addUtilities(newUtilities)
+    }
+  ],
 }
