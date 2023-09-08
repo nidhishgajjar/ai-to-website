@@ -35,7 +35,7 @@ const Landing = () => {
                 <div className="inline-block overflow-hidden border-r-2 border-white text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl">
                     <TypingText texts={['Let an AI take orders of your restaurant', 'Call us for a private demo']} />
                 </div>
-                <a href="tel:+14152907886" className="inline-block lg:mt-3 py-1 md:py-2 lg:py-2 xl:py-3 px-3 sm:px-3 md:px-4 lg:px-5 xl:px-6 bg-sky-950 text-neutral-300 no-underline rounded-full text-sm sm:text-md md:text-lg lg:text-xl xl:text-xl font-semibold tracking-wide">Call Now</a>
+                <a href="https://tally.so/r/mRM64J" className="inline-block lg:mt-3 py-1 md:py-2 lg:py-2 xl:py-3 px-3 sm:px-3 md:px-4 lg:px-5 xl:px-6 bg-sky-950 text-neutral-300 no-underline rounded-full text-sm sm:text-md md:text-lg lg:text-xl xl:text-xl font-semibold tracking-wide">Call Now</a>
             </div>
             <button onClick={handleMuteUnmuteVideo} className="absolute top-10 right-10 z-30 bg-neutral-500 p-1 sm:p-1 md:p-2 lg:p-3 xl:p-4 rounded-full">
                 {isMuted ? <FaVolumeMute size={20} /> : <FaVolumeUp size={20} />}
